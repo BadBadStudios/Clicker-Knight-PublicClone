@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public int health;
     public int maxHealth;
+    public int defense;
     [SerializeField]
     RectTransform currentHealthTransform;
     [SerializeField]
@@ -31,6 +32,8 @@ public class Player : MonoBehaviour
 
     private void takeDamage(int damage)
     {
+        damage -= defense;
+        damage = Mathf.Max(damage, 0);
         health -= damage;
         currentHealthTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, maxHealthTransform.rect.width * (float)health / maxHealth);
     }
