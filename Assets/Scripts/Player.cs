@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public int health;
     public int maxHealth;
+    public int attack;
     public int defense;
     [SerializeField]
     RectTransform currentHealthTransform;
@@ -26,7 +27,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Events.playerAttack?.Invoke(20);
+            Events.playerAttack?.Invoke(attack);
         }
     }
 

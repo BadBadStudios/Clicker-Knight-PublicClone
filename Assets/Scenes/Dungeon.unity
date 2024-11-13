@@ -1078,6 +1078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   maxHealth: 100
+  attack: 20
   defense: 0
   currentHealthTransform: {fileID: 624691669}
   maxHealthTransform: {fileID: 563667052}
