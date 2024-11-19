@@ -2134,15 +2134,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd181cf32a281447951c17a4a3f077a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
-  attack: 0
-  defense: 0
-  spriteRenderer: {fileID: 1209668380}
   monster: {fileID: 0}
+  spriteRenderer: {fileID: 1209668380}
   enemyNameText: {fileID: 219513647}
   currentHealthTransform: {fileID: 1213684148}
   maxHealthTransform: {fileID: 918604140}
+  animator: {fileID: 1209668382}
+  defaultAnimatorController: {fileID: 9100000, guid: 0b9c4ce56c4432b4bbe4ab94f15f1c54, type: 2}
 --- !u!1 &1213684147
 GameObject:
   m_ObjectHideFlags: 0

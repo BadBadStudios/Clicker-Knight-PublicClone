@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9e1f256be594e0499853958146c2687, type: 3}
   m_Name: Blue Slime
   m_EditorClassIdentifier: 
-  health: 20
+  health: 10
   attack: 1
   defense: 19
   sprite: {fileID: 2799728771805606855, guid: 9806bac53c13f8b468d496e5a350c570, type: 3}
+  animatorController: {fileID: 0}

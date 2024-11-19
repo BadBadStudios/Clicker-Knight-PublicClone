@@ -16,3 +16,4 @@ MonoBehaviour:
   attack: 2
   defense: 0
   sprite: {fileID: 3945077469886725810, guid: 1a9253aa3c38348449a30260e569ed7e, type: 3}
+  animatorController: {fileID: 22100000, guid: 1fc3e8ff44495db479abf034be86c2e9, type: 2}
